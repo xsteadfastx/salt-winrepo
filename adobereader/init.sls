@@ -1,6 +1,6 @@
 adobereader:
-  11.0.6:
-    full_name: 'Adobe Reader 11.0.6'
+  11.0.06:
+    full_name: 'Adobe Reader XI (11.0.06) - Deutsch'
     installer: 'salt://win/repo/salt-winrepo.git/adobereader/files/AdbeRdr11006_de_DE.exe'
     reboot: False
     locale: de_DE

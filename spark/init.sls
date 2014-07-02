@@ -1,6 +1,6 @@
 spark:
-  2.6.3:
+  2.6.3.12555:
     installer: 'salt://win/repo/salt-winrepo.git/spark/files/spark_2_6_3.exe'
-    full_name: 'Spark 2.6.3'
+    full_name: 'Spark 2.6.3.12555'
     reboot: False
-    install_flags: ' -q '
+    install_flags: ' -q'

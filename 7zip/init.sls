@@ -1,5 +1,5 @@
 7zip:
-  9.20:
+  9.20.00.0:
     installer: 'salt://win/repo/salt-winrepo.git/7zip/files/7z920-x64.msi' 
     full_name: '7-Zip 9.20 (x64 edition)'
     reboot: False
