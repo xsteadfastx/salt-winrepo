@@ -6,4 +6,4 @@ thunderbird:
     locale: de_DE
     install_flags: ' /s'
     uninstaller: 'C:\Program Files (x86)\Mozilla Thunderbird\uninstall\helper.exe'
-    uninstall_flags: ' /S '
+    uninstall_flags: ' /S'
