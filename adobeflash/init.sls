@@ -1,4 +1,12 @@
 adobeflash:
+  15.0.0.189:
+    full_name: 'Adobe Flash Player 15 Plugin'
+    installer: 'salt://win/repo/salt-winrepo.git/adobeflash/files/15_0_0_189.exe'
+    reboot: False
+    locale: de_DE
+    install_flags: ' /install'
+    uninstaller: 'salt://win/repo/salt-winrepo.git/adobeflash/files/uninstall_flash_player.exe'
+    uninstall_flags: ' -uninstall'
   15.0.0.152:
     full_name: 'Adobe Flash Player 15 Plugin'
     installer: 'salt://win/repo/salt-winrepo.git/adobeflash/files/15_0_0_152.exe'

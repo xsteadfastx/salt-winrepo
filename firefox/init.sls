@@ -1,4 +1,11 @@
 firefox:
+  33.0:
+    installer: 'salt://win/repo/salt-winrepo.git/firefox/files/Firefox Setup 33.0.exe' 
+    full_name: 'Mozilla Firefox 33.0 (x86 de)'
+    reboot: False
+    install_flags: ' /s '
+    uninstaller: 'C:\Program Files (x86)\Mozilla Firefox\uninstall\helper.exe'
+    uninstall_flags: ' /S'
   32.0.3:
     installer: 'salt://win/repo/salt-winrepo.git/firefox/files/Firefox Setup 32.0.3.exe' 
     full_name: 'Mozilla Firefox 32.0.3 (x86 de)'
